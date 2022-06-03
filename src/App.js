@@ -58,7 +58,7 @@ function App() {
     <div>
       {loading ? (
         <div className="container">
-          <ClipLoader color="#ffffff" loading={loading} size={150} />
+          <ClipLoader color="#ffffff" loading={loading} size={211.67} />
           <WeatherButton
             cities={cities}
             setCity={setCity}
